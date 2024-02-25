@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DosSancto.DependencyInjecti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DosSancto.Infra", "DosSancto.Infra\DosSancto.Infra.csproj", "{D0612296-A344-4C49-B69B-71934358722B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DosSancto.Web", "DosSancto.Web\DosSancto.Web.csproj", "{BC4D4440-48BF-416F-8505-A4907CFC0A0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{D0612296-A344-4C49-B69B-71934358722B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0612296-A344-4C49-B69B-71934358722B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0612296-A344-4C49-B69B-71934358722B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC4D4440-48BF-416F-8505-A4907CFC0A0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC4D4440-48BF-416F-8505-A4907CFC0A0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC4D4440-48BF-416F-8505-A4907CFC0A0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC4D4440-48BF-416F-8505-A4907CFC0A0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

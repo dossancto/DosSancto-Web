@@ -482,3 +482,7 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+
+node_modules
+
+wwwroot/lib/tailwind/app.min.css

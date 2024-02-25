@@ -1,5 +1,7 @@
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-image: radial-gradient(#333333 0%, #1b1b21 80%);
+    /* min-height: 100vh; */
 }
 
 a, .btn-link {

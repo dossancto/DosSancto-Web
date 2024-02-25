@@ -1,10 +1,15 @@
+using DosSancto.DependencyInjection;
 using DosSancto.Web.Components;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services
+        .AddDefaultApplicationConfiguration(builder.Environment.IsDevelopment());
+
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
+
 
 var app = builder.Build();
 
